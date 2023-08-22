@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .heading{
+        height: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .meddical{
+        color: var(--primary, #1F2B6C);
+        font-family: Yeseva One;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 270px;
+    }
+    .shape{
+        width: 820px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .shape-one{
+        display:flex;
+        align-items: center;
+    }
+    .shape-two{
+        display:flex;
+        align-items: center;
+    }
+    .shape-three{
+        display:flex;
+        align-items: center;
+    }
+    p{
+        margin-left: 10px;
+    }
+    .nav-box{
+        height: 80px;
+        width: 100%;
+        top: 80px;
+        background-color:#1F2B6C;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .nav-box-one{
+        display: flex;
+        justify-content: space-between;
+        width: 495px;
+        height: 21px;
+        list-style: none;
+        color: whitesmoke;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .symboy{
+        width: 223px;
+        height: 45px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .btn{
+        width: 173px;
+        height: 45px;
+        border-radius: 50px;
+        background-color: #bfd2f8;
+    }
+    img{
+        width: 20px;
+        height: 20px;
+        top: 29px;
+    }
+    .main{
+        height: 550px;
+        background-color: blueviolet;
+        background-image: url(./img/Physician_Trends_2021_Merritt_Hawkins\ 2.png);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 187px;
+    }
+    .main-one{
+        color: var(--secondary, #159EEC);
+        font-family: Work Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2.88px;
+    }
+    h1{
+        color: var(--primary, #1F2B6C);
+        font-family: Yeseva One;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .services{
+        width: 173px;
+        height: 45px;
+        border-radius: 50px;
+        background: var(--accent, #BFD2F8);
+    }
+
+    
+</style>
+<body>
+    <header class="cotainer">
+        <div class="heading">
+            <div class="meddical">
+                MEDDICAL
+            </div>
+            <div class="shape">
+                <div class="shape-one">
+                    <img src="/bài 7/img/Group 188.jpg" alt="">
+                    <p>EMERGENCY <br>
+                     (237) 681-812-255
+                    </p>
+                </div>
+                <div class="shape-two">
+                    <img src="/bài 7/img/Group 177.jpg" alt="">
+                    <p>Work Hour <br>
+                        09:00 - 20:00 Everyday
+                    </p>
+                    
+                </div>
+                <div class="shape-three">
+                    <img src="/bài 7/img/Group 178.jpg" alt="">
+                    <p>Location <br>
+                        0123 Some Place
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <nav class="nav-box">
+        <ul class="nav-box-one">
+            <li class="nav-one"><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Docters</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="symboy">
+            <img src="/bài 7/img/Group 175.jpg" alt="">
+            <button class="btn">Appointment</button>
+        </div>
+    </nav>
+    <div class="main">
+        <p class="main-one">Caring for Life</p>
+        <h1>
+            Leading the Way <br>
+            in Medical Excellence
+        </h1>
+        <div class="jon">
+            <button class="services">Our Services</button>
+        </div>
+    </div>
+</body>
+</html>
